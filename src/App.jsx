@@ -13,27 +13,27 @@ export default function App() {
         <div className="mt-4 sm:mt-6 bg-gray-50 p-3 sm:p-4 rounded-lg border border-gray-200 overflow-auto">
           <h2 className="text-base sm:text-lg font-semibold text-gray-700 mb-2 sm:mb-3">Configuration Options</h2>
           <ul className="space-y-2 text-sm sm:text-base text-gray-600">
-            <li className="flex flex-wrap gap-2">
+            <li className="flex flex-wrap gap-2 items-center">
               <code className="bg-gray-100 px-2 py-1 rounded">collapsedNumWords</code>
               <span>- Number of words to show when collapsed (default: 10)</span>
             </li>
-            <li className="flex flex-wrap gap-2">
+            <li className="flex flex-wrap gap-2 items-center">
               <code className="bg-gray-100 px-2 py-1 rounded">expandButtonText</code>
               <span>- Custom text for the expand button (default: "Show More")</span>
             </li>
-            <li className="flex flex-wrap gap-2">
+            <li className="flex flex-wrap gap-2 items-center">
               <code className="bg-gray-100 px-2 py-1 rounded">collapseButtonText</code>
               <span>- Custom text for the collapse button (default: "Show Less")</span>
             </li>
-            <li className="flex flex-wrap gap-2">
+            <li className="flex flex-wrap gap-2 items-center">
               <code className="bg-gray-100 px-2 py-1 rounded">buttonColor</code>
               <span>- Custom color for the buttons (default: "#1f09cd")</span>
             </li>
-            <li className="flex flex-wrap gap-2">
+            <li className="flex flex-wrap gap-2 items-center">
               <code className="bg-gray-100 px-2 py-1 rounded">expanded</code>
               <span>- Initial expanded state (default: false)</span>
             </li>
-            <li className="flex flex-wrap gap-2">
+            <li className="flex flex-wrap gap-2 items-center">
               <code className="bg-gray-100 px-2 py-1 rounded">className</code>
               <span>- Additional CSS classes to apply</span>
             </li>
